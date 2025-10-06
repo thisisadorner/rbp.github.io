@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snooper | RBP Projects</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+    <a href="../index.html" class="back-link">← Back to Projects</a>
+
+    <div class="project-header">
+        <h1>Snooper</h1>
+        <p class="project-meta">Bash Script | Started October 2025</p>
+        <a href="https://github.com/thisisadorner/snooper" class="github-link" target="_blank">View on GitHub →</a>
+    </div>
+
+    <main class="project-content">
+        <h2>About</h2>
+        <p>Snooper is a command-line tool for searching through files for specific phrases. It supports wildcards and provides clear feedback on search results.</p>
+
+        <h2>Why I Built This</h2>
+        <p>I needed a quick way to search through log files without having to remember complex grep syntax every time. This tool makes it interactive and user-friendly.</p>
+
+        <h2>What I Learned</h2>
+        <ul>
+            <li>The difference between quoted and unquoted variables in Bash</li>
+            <li>How glob expansion works</li>
+            <li>Proper error handling in shell scripts</li>
+            <li>Making scripts user-friendly with clear prompts and feedback</li>
+        </ul>
+
+        <h2>Current Features</h2>
+        <ul>
+            <li>Interactive prompts for search phrase and file pattern</li>
+            <li>Support for wildcards in file paths</li>
+            <li>Clear feedback on matches found</li>
+            <li>Error handling for invalid patterns</li>
+        </ul>
+
+        <h2>Future Plans</h2>
+        <ul>
+            <li>Add recursive directory searching</li>
+            <li>Case-insensitive search option</li>
+            <li>Display matching lines, not just file names</li>
+            <li>Color-coded output</li>
+            <li>Export results to a file</li>
+        </ul>
+
+        <h2>Technical Notes</h2>
+        <p>The key challenge was understanding how Bash handles variable expansion. When you quote a variable containing wildcards, Bash treats them as literal characters. Removing the quotes allows glob expansion to work correctly.</p>
+
+        <h2>Reflections</h2>
+        <p>This was my first real Bash script project, and it taught me that even simple tools can be incredibly useful when they solve a specific problem you encounter regularly.</p>
+    </main>
+
+    <footer>
+        <p>© 2025 RBP | <a href="https://github.com/thisisadorner">GitHub</a></p>
+    </footer>
+</body>
+</html>
